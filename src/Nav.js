@@ -31,7 +31,7 @@ function App() {
         <img src='/Spotify.png' className="App-logo" alt="logo" />
         <img src='/Facebook.svg' className="App-logo" alt="logo" />
         <img src='/Instagram.png' className="App-logo" alt="logo" />
-        <img src='/Email Logo.svg' className="App-logo" alt="logo" />
+        <img src='/Youtube.png' className="App-logo" alt="logo" />
       </header>
     </div>
   );
