@@ -2,13 +2,13 @@ import React from 'react';
 
 import './App.css';
 
-function App() {
+function Artist() {
   return (
     <div className="App">
       <header className="App-header">
         <img src='/SRLogo.jpg' className="App-logo" alt="logo" />
         <h2>
-          Artist Name
+         Artist Name
         </h2>
         <p>
          Bio
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Artist;
