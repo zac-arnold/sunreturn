@@ -30,10 +30,11 @@ function Nav() {
         <br></br>
         <div className="">
           <img src='/Spotify.png' className="srsoclogo" alt="logo" />
-          <img src='/Facebook.svg' className="srsoclogo" alt="logo" />
+          <img src='/Youtube.png' className="srsoclogo" alt="logo" />
           <br></br>
           <img src='/Instagram.png' className="srsoclogo" alt="logo" />
-          <img src='/Youtube.png' className="srsoclogo" alt="logo" />
+          <img src='/Facebook.svg' className="srsoclogo" alt="logo" />
+
         </div>
 
       </header>
