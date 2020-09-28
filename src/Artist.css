@@ -1,0 +1,14 @@
+.artistLogo {
+  width: 10vh;
+  height: auto;
+  float: right;
+  padding-left: 1vw;
+  padding-right: 5vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+}
+
+.artistsoclogo {
+  width: 7vw;
+  padding: .2vw;
+}

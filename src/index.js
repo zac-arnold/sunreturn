@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import Nav from './Nav';
 import Home from './Home';
-import Artist from './Artist'
+import Artist from './Artist';
 import * as serviceWorker from './serviceWorker';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <Nav />
-    <Home />
+    <Artist />
   </React.StrictMode>,
   document.getElementById('root')
 );

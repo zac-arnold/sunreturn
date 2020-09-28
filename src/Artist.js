@@ -1,23 +1,24 @@
 import React from 'react';
 
-import './App.css';
+import './Artist.css';
 
 function Artist() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src='/SRLogo.jpg' className="App-logo" alt="logo" />
+    <div className="">
+      <header className="">
         <h2>
          Artist Name
         </h2>
         <p>
          Bio
         </p>
-        <img src='/Bandcamp.png' className="App-logo" alt="logo" />
-        <img src='/Spotify.png' className="App-logo" alt="logo" />
-        <img src='/Youtube.png' className="App-logo" alt="logo" />
-        <img src='/Instagram.png' className="App-logo" alt="logo" />
-        <img src='/Facebook.svg' className="App-logo" alt="logo" />
+        <div className="artistLogo">
+        <img src='/Bandcamp.png' className="artistsoclogo" alt="logo" />
+        <img src='/Spotify.png' className="artistsoclogo" alt="logo" />
+        <img src='/Youtube.png' className="artistsoclogo" alt="logo" />
+        <img src='/Instagram.png' className="artistsoclogo" alt="logo" />
+        <img src='/Facebook.svg' className="artistsoclogo" alt="logo" />
+        </div>
       </header>
     </div>
   );

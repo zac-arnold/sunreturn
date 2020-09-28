@@ -11,6 +11,12 @@
   padding-top: 1vw;
 }
 
+/* Font */
+@font-face {
+  font-family: Friz-Quadrata;
+  src: url("/Friz Quadrata Bold.otf") format("opentype");
+}
+
 .border {
   border-right: 1px solid black;
   height: auto;
@@ -25,14 +31,19 @@
 .blurb {
   font-size: 10px;
   text-align: justify;
+  font: arial;
 }
 
 h1 {
   font-size: 30px;
+  font-family: Friz-Quadrata;
+
 }
 
 h2 {
   font-size: 20px;
+  font-family: Friz-Quadrata;
+
 }
 
 .srlogo {
