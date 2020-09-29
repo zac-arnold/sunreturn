@@ -16,7 +16,7 @@ function Nav() {
         <p className="blurb">
           Sunreturn is an independent record label and artist service based in Tāmaki Makaurau, Aotearoa. We strive to amplify the work of artists who find freedom in imagining new and unique sounds.
         </p>
-        <ul>
+        <ul className="hyperlink">
           {lineup.artists.map(key => (
               <h2 key={key.id}><Link to={`/${key.name}`}>{key.name}</Link></h2>
           ))}

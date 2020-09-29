@@ -7,13 +7,13 @@ import './Artist.css';
 
 
 function Artist() {
-  
+
   console.log('artist.js lineup', lineup)
 
   return (
     <div className="">
       <header className="">
-        <img></img>
+        <img src="" alt=""></img>
         <h2>
          Artist Name
         </h2>
