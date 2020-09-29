@@ -7,10 +7,10 @@ function Home() {
     <div className="App">
       <header className="App-header">
         <h1>
-         SUNRETURN
+         SUNRETURN HOME PAGE
         </h1>
         <p>
-         Sunreturn is an independent record label based in Tāmaki Makaurau, Aotearoa. We strive to amplify the work of artists who find freedom in imagining new and unique sounds.
+          THIS IS WHERE I WANT THE EMAIL EMBED TO GO 
         </p>        
       </header>
     </div>

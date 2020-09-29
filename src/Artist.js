@@ -1,16 +1,27 @@
 import React from 'react';
+import { Link, Route } from 'react-router-dom'
+
+import lineup from './lineupdata.json'
 
 import './Artist.css';
 
+
 function Artist() {
+  
+  console.log('artist.js lineup', lineup)
+
   return (
     <div className="">
       <header className="">
+        <img></img>
         <h2>
          Artist Name
         </h2>
         <p>
          Bio
+        </p>
+        <p>
+         Photo Credit
         </p>
         <div className="artistLogo">
         <img src='/Bandcamp.png' className="artistsoclogo" alt="logo" />

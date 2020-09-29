@@ -1,7 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
 import './Nav.css';
+import lineup from './lineupdata.json'
 
 function Nav() {
+
   return (
     <div className="artistNav border">
       <header className="">
@@ -12,21 +16,11 @@ function Nav() {
         <p className="blurb">
           Sunreturn is an independent record label and artist service based in Tāmaki Makaurau, Aotearoa. We strive to amplify the work of artists who find freedom in imagining new and unique sounds.
         </p>
-        <h2>
-          AMAMELIA  
-        </h2>      
-        <h2>
-          BABY ZIONOV 
-        </h2>      
-        <h2>
-          DATELINE 
-        </h2>      
-        <h2>
-          GREEN GROVE 
-        </h2>      
-        <h2>
-          K M T P 
-        </h2>
+        <ul>
+          {lineup.artists.map(key => (
+              <h2 key={key.id}><Link to={`/${key.name}`}>{key.name}</Link></h2>
+          ))}
+        </ul>
         <br></br>
         <div className="">
         <a href="https://open.spotify.com/user/5eiwm3ezpotach39w3v3vms00?si=g856l_BdQ2yLUfw44D7Efw" target="blank" rel="noopener noreferrer"><img src='/Spotify.png' className="srsoclogo" alt="Spotify Logo" /></a>
