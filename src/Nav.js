@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 import './Nav.css';
 import lineup from './lineupdata.json'
 
-function Nav() {
+function Nav(props) {
 
   return (
     <div className="artistNav border">
       <header className="">
         <img src='/SRLogo.jpg' className="srlogo" alt="logo" />
         <h1>
-          SUNRETURN
+          SUNRETURN {props.test}
         </h1>
         <p className="blurb">
           Sunreturn is an independent record label and artist service based in Tāmaki Makaurau, Aotearoa. We strive to amplify the work of artists who find freedom in imagining new and unique sounds.

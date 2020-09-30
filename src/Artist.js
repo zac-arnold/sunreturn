@@ -1,30 +1,31 @@
-import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom'
+import React from 'react';
 
 import lineup from './lineupdata.json'
 
 import './Artist.css';
 
-console.log('artist.js lineup', lineup)
+// What I want to do
 
-class Artist extends Component() {
-  
-render () {
- const { id } = this.props.match.params;
-  
-    return (
+// have access to line up data
+//console.log('artist.js lineup', lineup)
+
+// the url (params) determines what data is being shown
+//console.log('artist.js params', props.match.params.artist)
+
+// that data brings up artist info into the different areas (name, bio, social links)
+
+
+function Artist (props){
+  console.log('artist props', props)
+  console.log('artist.js params', props.match.params.artist)
+  console.log('artist data using params ', lineup.artists)
+  return (
       <div className="">
         <header className="">
           <img src="" alt=""></img>
-          <h2>
-          Artist Name { id }
-          </h2>
-          <p>
-          Bio
-          </p>
-          <p>
-          Photo Credit
-          </p>
+          <p>Photo Credit</p>
+          <h2>Artist Name: {props.match.params.artist} </h2>
+          <p>Bio</p>
           <div className="artistLogo">
           <img src='/Bandcamp.png' className="artistsoclogo" alt="logo" />
           <img src='/Spotify.png' className="artistsoclogo" alt="logo" />
@@ -35,8 +36,9 @@ render () {
         </header>
       </div>
     );
-  }
+
+
 
 }
 
-export default withRouter (Artist)
+export default Artist

@@ -1,17 +1,21 @@
 import React from 'react';
-import { Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 
 import Nav from './Nav';
 import Home from './Home'
 import Artist from './Artist'
 
-const App = () => {
+const App = (props) => {
   return (
-<div>
-    <Route path="/" component={Nav} />
-    <Route exact path='/' component={Home} />
-    <Route exact path='/:artist' component={Artist} />
-</div>
+
+    <Router>
+      <div>
+      <Route path="/" component={Nav} />
+      <Route exact path='/' component={Home} />
+      <Route path='/:artist' component={Artist} />
+      </div>
+    </Router>
+
   );
 }
 
