@@ -7,7 +7,6 @@ import Artist from './Artist'
 
 const App = (props) => {
   return (
-
     <Router>
       <div>
       <Route path="/" component={Nav} />

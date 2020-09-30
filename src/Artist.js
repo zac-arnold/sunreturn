@@ -14,11 +14,15 @@ import './Artist.css';
 
 // that data brings up artist info into the different areas (name, bio, social links)
 
+// potentialy need to make single components for photo credit, img, bio and social channels that are nested into artist
+// 40min mark & 52min mark
 
 function Artist (props){
   console.log('artist props', props)
   console.log('artist.js params', props.match.params.artist)
-  console.log('artist data using params ', lineup.artists)
+  console.log('artist line up data', lineup.artists)
+  console.log('test', )
+
   return (
       <div className="">
         <header className="">

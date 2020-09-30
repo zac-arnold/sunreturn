@@ -11,15 +11,15 @@ function Nav(props) {
       <header className="">
         <Link to={`/`}><img src='/SRLogo.jpg' className="srlogo" alt="logo" /></Link> 
         <h1>
-          <Link to={`/`}>SUNRETURN</Link>  
+          <Link className="hypelink" to={`/`} >SUNRETURN</Link>  
         </h1>
         
         <p className="blurb">
           Sunreturn is an independent record label and artist service based in Tāmaki Makaurau, Aotearoa. We strive to amplify the work of artists who find freedom in imagining new and unique sounds.
         </p>
-        <ul >
+        <ul>
           {lineup.artists.map(key => (
-              <h2 key={key.id}><Link to={`/${key.name}`}>{key.name}</Link></h2>
+              <h2 key={key.id}><Link className="hypelink" to={`/${key.name}`}>{key.name}</Link></h2>
           ))}
         </ul>
         <br></br>
