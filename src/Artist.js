@@ -1,5 +1,7 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 
+import Social from './Social'
 import lineup from './lineupdata.json'
 
 import './Artist.css';
@@ -25,19 +27,12 @@ function Artist (props){
 
   return (
       <div className="">
-        <header className="">
           <img src="" alt=""></img>
           <p>Photo Credit</p>
           <h2>Artist Name: {props.match.params.artist} </h2>
           <p>Bio</p>
-          <div className="artistLogo">
-          <img src='/Bandcamp.png' className="artistsoclogo" alt="logo" />
-          <img src='/Spotify.png' className="artistsoclogo" alt="logo" />
-          <img src='/Youtube.png' className="artistsoclogo" alt="logo" />
-          <img src='/Instagram.png' className="artistsoclogo" alt="logo" />
-          <img src='/Facebook.svg' className="artistsoclogo" alt="logo" />
-          </div>
-        </header>
+          <Route component={Social} />
+
       </div>
     );
 
