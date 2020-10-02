@@ -1,45 +1,34 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
 
-import Social from './Social'
 import lineup from './lineupdata.json'
 
 import './Artist.css';
 
-// What I want to do
-
-// have access to line up data
-//console.log('artist.js lineup', lineup)
-
-// the url (params) determines what data is being shown
-//console.log('artist.js params', props.match.params.artist)
-
-// that data brings up artist info into the different areas (name, bio, social links)
-
-// potentialy need to make single components for photo credit, img, bio and social channels that are nested into artist
-// 40min mark & 52min mark
 
 function Artist (props){
-  console.log('artist props', props)
-  console.log('artist.js params', props.match.params.artist)
-  console.log('artist line up data', lineup.artists)
-  console.log('test', )
+  // console.log('artist props', props)
+  // console.log('artist.js params', props.match.params.artist)
+  // console.log('artist line up data', lineup.artists)
+  // console.log('test', )
+  // console.log('lane code', artist)
 
   const artist = lineup.artists.filter((artist) => artist.name === props.match.params.artist)[0]
-  console.log('lane code', artist)
-  return (
-      <div className="">
-          <img src="" alt=""></img>
-          <p>Photo Credit</p>
-          <h2>Artist Name: {props.match.params.artist} </h2>
-          <p>Bio {artist.bio} </p>
-          <Route component={Social} />
 
+  return (
+      <div className="artistcomp">
+          <img className="artistphoto" src={ artist.img } alt=""></img>
+          <a href={artist.pcredlink} className="hypelink" target="blank" rel="noopener noreferrer"><p className="hypelink">Photo Credit: {artist.pcredt}</p></a>
+          <h2>{props.match.params.artist} </h2>
+          <p> {artist.bio} </p>
+          <div className="artistLogo">
+            <a href={ artist.socialMedia.bandcamp } target="blank" rel="noopener noreferrer"><img src='/Bandcamp.png' className="artistsoclogo" alt="logo" /></a>
+            <a href={ artist.socialMedia.spotify} target="blank" rel="noopener noreferrer"><img src='/Spotify.png' className="artistsoclogo" alt="logo" /></a>
+            <a href={ artist.socialMedia.youtube} target="blank" rel="noopener noreferrer"><img src='/Youtube.png' className="artistsoclogo" alt="logo" /></a>
+            <a href={ artist.socialMedia.instagram} target="blank" rel="noopener noreferrer"><img src='/Instagram.png' className="artistsoclogo" alt="logo" /></a>
+            <a href={ artist.socialMedia.facebook} target="blank" rel="noopener noreferrer"><img src='/Facebook.svg' className="artistsoclogo" alt="logo" /></a>
+          </div>
       </div>
     );
-
-
-
 }
 
 export default Artist

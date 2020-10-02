@@ -1,3 +1,11 @@
+.artistcomp {
+  float: none;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+}
+
 .artistLogo {
   width: 10vh;
   height: auto;
@@ -11,4 +19,14 @@
 .artistsoclogo {
   width: 7vw;
   padding: .2vw;
+}
+
+.artistphoto {
+  width: 40vw;
+  height: auto;
+}
+
+.hypelink {
+  text-decoration: none;
+  color: black;
 }
