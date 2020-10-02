@@ -7,9 +7,9 @@
 }
 
 .artistLogo {
+  float: right;
   width: 10vh;
   height: auto;
-  float: right;
   padding-left: 1vw;
   padding-right: 5vw;
   padding-bottom: 1vw;
@@ -22,11 +22,28 @@
 }
 
 .artistphoto {
-  width: 40vw;
+  width: 45vw;
   height: auto;
+  float: inherit;
+  padding-left: 10vw;
+
 }
 
-.hypelink {
+.hypelinka {
   text-decoration: none;
+  float: right;
+  padding-right: 10vw;
   color: black;
+  padding-left: 10vw;
 }
+
+.bio {
+  width: 30vw;
+  float: center ;
+  text-align: justify;
+}
+
+.pcred {
+font-size: 10px;
+}
+

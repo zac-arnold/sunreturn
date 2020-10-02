@@ -16,10 +16,6 @@ function Artist (props){
 
   return (
       <div className="artistcomp">
-          <img className="artistphoto" src={ artist.img } alt=""></img>
-          <a href={artist.pcredlink} className="hypelink" target="blank" rel="noopener noreferrer"><p className="hypelink">Photo Credit: {artist.pcredt}</p></a>
-          <h2>{props.match.params.artist} </h2>
-          <p> {artist.bio} </p>
           <div className="artistLogo">
             <a href={ artist.socialMedia.bandcamp } target="blank" rel="noopener noreferrer"><img src='/Bandcamp.png' className="artistsoclogo" alt="logo" /></a>
             <a href={ artist.socialMedia.spotify} target="blank" rel="noopener noreferrer"><img src='/Spotify.png' className="artistsoclogo" alt="logo" /></a>
@@ -27,6 +23,11 @@ function Artist (props){
             <a href={ artist.socialMedia.instagram} target="blank" rel="noopener noreferrer"><img src='/Instagram.png' className="artistsoclogo" alt="logo" /></a>
             <a href={ artist.socialMedia.facebook} target="blank" rel="noopener noreferrer"><img src='/Facebook.svg' className="artistsoclogo" alt="logo" /></a>
           </div>
+
+          <img className="artistphoto" src={ artist.img } alt=""></img>
+          <a href={artist.pcredlink} className="hypelinka" target="blank" rel="noopener noreferrer"><p className="hypelink pcred">Photo Credit: {artist.pcredt}</p></a>
+          <h2>{props.match.params.artist} </h2>
+          <p className="bio"> {artist.bio} </p>
       </div>
     );
 }
