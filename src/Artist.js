@@ -25,12 +25,14 @@ function Artist (props){
   console.log('artist line up data', lineup.artists)
   console.log('test', )
 
+  const artist = lineup.artists.filter((artist) => artist.name === props.match.params.artist)[0]
+  console.log('lane code', artist)
   return (
       <div className="">
           <img src="" alt=""></img>
           <p>Photo Credit</p>
           <h2>Artist Name: {props.match.params.artist} </h2>
-          <p>Bio</p>
+          <p>Bio {artist.bio} </p>
           <Route component={Social} />
 
       </div>
