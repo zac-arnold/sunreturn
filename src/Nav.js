@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-import './Nav.css';
 import lineup from './lineupdata.json'
+
+import './Nav.css';
+
+
 
 function Nav(props) {
 
@@ -10,9 +13,7 @@ function Nav(props) {
     <div className="artistNav border">
       <header className="">
         <Link to={`/`}><img src='/SRLogo.jpg' className="srlogo" alt="logo" /></Link> 
-        <h1>
-          <Link className="hypelink" to={`/`} >SUNRETURN</Link>  
-        </h1>
+        <h1><Link className="hypelink" to={`/`} >SUNRETURN</Link></h1>
         
         <p className="blurb">
           Sunreturn is an independent record label and artist service based in Tāmaki Makaurau, Aotearoa. We strive to amplify the work of artists who find freedom in imagining new and unique sounds.

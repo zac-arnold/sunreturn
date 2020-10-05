@@ -32,11 +32,13 @@
   font-size: 10px;
   text-align: justify;
   font: arial;
+  padding-bottom: 1vw;
 }
 
 h1 {
   font-size: 30px;
   font-family: Friz-Quadrata;
+  padding-bottom: 1px;
 
 }
 
@@ -63,4 +65,9 @@ code {
 .hypelink {
   text-decoration: none;
   color: black;
+
+}
+
+ul {
+  padding-inline-start: 0px
 }

@@ -1,17 +1,16 @@
 import React from 'react';
 
-import './App.css';
-
 function Home() {
   return (
+
     <div className="App">
       <header className="App-header">
         <h1>
-         SUNRETURN HOME PAGE
+        SUNRETURN HOME PAGE
         </h1>
         <p>
           THIS IS WHERE I WANT THE EMAIL EMBED TO GO 
-        </p>        
+        </p> 
       </header>
     </div>
   );
