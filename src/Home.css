@@ -1,0 +1,21 @@
+img {
+ width: 20vw;
+ height: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.catnum {
+  font-family: Friz-Quadrata;
+}
+
+.covers {
+  width: 30vw;
+  height: auto;
+}
