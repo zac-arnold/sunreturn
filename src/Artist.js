@@ -17,7 +17,7 @@ function Artist (props){
         <img className="artistphoto" src={ artist.img } alt=""></img>
         <a href={artist.pcredlink} className="hypelinka" target="blank" rel="noopener noreferrer"><p className="hypelink pcred">Photo Credit: {artist.pcredt}</p></a>
         <h1 className="artistname">{props.match.params.artist} </h1>
-        <p className="bio artistname"> {artist.bio} </p>
+        <p className="bio"> {artist.bio} </p>
       </div>
     );
 }
