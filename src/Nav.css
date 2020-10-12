@@ -72,9 +72,6 @@ ul {
 }
 
 @media (max-width: 800px) {
-  /* body {
-    background-color: lightblue;
-  } */
 
   .border {
     border-right: 0px solid black;  
