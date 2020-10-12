@@ -1,3 +1,9 @@
+/* Font */
+@font-face {
+  font-family: Friz-Quadrata;
+  src: url("/Friz Quadrata Bold.otf") format("opentype");
+}
+
 .artistNav {
   width: 40vh;
   height: auto;
@@ -9,12 +15,6 @@
   padding-right: 1vw;
   padding-bottom: 1vw;
   padding-top: 1vw;
-}
-
-/* Font */
-@font-face {
-  font-family: Friz-Quadrata;
-  src: url("/Friz Quadrata Bold.otf") format("opentype");
 }
 
 .border {
@@ -65,9 +65,70 @@ code {
 .hypelink {
   text-decoration: none;
   color: black;
-
 }
 
 ul {
   padding-inline-start: 0px
+}
+
+@media (max-width: 800px) {
+  /* body {
+    background-color: lightblue;
+  } */
+
+  .border {
+    border-right: 0px solid black;  
+    border-bottom: 1px solid black;
+  }
+
+  .artistNav {
+    width: 100%;
+    height: auto;
+
+    float: top;
+    text-align: center;
+    text-decoration: none!important;
+    color: black !important;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+  }
+
+  ul {
+    width: auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  .socialcontainer{
+    width: auto;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+  }
+
+  .title {
+    float: right;
+  }
+
+  .srlogo {
+    width: 35vw;
+    float: left;
+  }
+  
+  .blurb {
+    font-size: 9px;
+    text-align: justify;
+    font: arial;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 3vw;
+
+  }
+
+  .srsoclogo {
+    width: 15vw;
+    padding: .2vw;
+  }
+
 }
