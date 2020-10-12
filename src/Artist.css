@@ -52,3 +52,18 @@ font-size: 10px;
 .artistname {
   padding-left: 31vw;
 }
+
+@media (max-width: 800px) {
+  body {
+    /* background-color: lightblue; */
+  }
+
+  .artistphoto {
+    width: 100%;
+    height: auto;
+    float: top;
+
+  
+  }
+
+}
