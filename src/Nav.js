@@ -24,11 +24,14 @@ function Nav(props) {
         </ul>
         <br></br>
         <div className="socialcontainer">
-        <a href="https://open.spotify.com/user/5eiwm3ezpotach39w3v3vms00?si=g856l_BdQ2yLUfw44D7Efw" target="blank" rel="noopener noreferrer"><img src='/Spotify.png' className="srsoclogo" alt="Spotify Logo" /></a>
-        <a href="https://www.youtube.com/channel/UCkEkTu3m49xpSFj55zjOiaQ/videos" target="blank" rel="noopener noreferrer"><img src='/Youtube.png' className="srsoclogo" alt="logo" /></a>  
-        <br></br>
-        <a href="https://www.instagram.com/sunreturn.nz/" target="blank" rel="noopener noreferrer"><img src='/Instagram.png' className="srsoclogo" alt="logo" /></a>  
-        <a href="https://www.facebook.com/Sunreturnnz" target="blank" rel="noopener noreferrer"><img src='/Facebook.svg' className="srsoclogo" alt="logo" /></a>  
+          <div>
+            <a href="https://open.spotify.com/user/5eiwm3ezpotach39w3v3vms00?si=g856l_BdQ2yLUfw44D7Efw" target="blank" rel="noopener noreferrer"><img src='/Spotify.png' className="srsoclogo" alt="Spotify Logo" /></a>
+            <a href="https://www.youtube.com/channel/UCkEkTu3m49xpSFj55zjOiaQ/videos" target="blank" rel="noopener noreferrer"><img src='/Youtube.png' className="srsoclogo" alt="logo" /></a>  
+          </div>
+          <div>
+            <a href="https://www.instagram.com/sunreturn.nz/" target="blank" rel="noopener noreferrer"><img src='/Instagram.png' className="srsoclogo" alt="logo" /></a>  
+            <a href="https://www.facebook.com/Sunreturnnz" target="blank" rel="noopener noreferrer"><img src='/Facebook.svg' className="srsoclogo" alt="logo" /></a>  
+          </div>
         </div>
     </div>
   );

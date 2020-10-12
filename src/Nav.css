@@ -98,12 +98,6 @@ ul {
     padding-right: 1vw;
   }
 
-  .socialcontainer{
-    width: auto;
-    padding-top: 1vw;
-    padding-bottom: 3vw;
-  }
-
   .title {
     float: right;
   }
@@ -127,5 +121,16 @@ ul {
     width: 15vw;
     padding: .2vw;
   }
+
+  .socialcontainer{
+    
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    padding-bottom: 20vw;
+  }
+
 
 }
