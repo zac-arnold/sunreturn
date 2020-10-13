@@ -1,0 +1,178 @@
+.artistcomp {
+  float: none;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+}
+
+.artistLogo {
+  float: right;
+  width: 10vh;
+  height: auto;
+  padding-left: 1vw;
+  padding-right: 8vw;
+  padding-bottom: 1vw;
+  padding-top: 3vw;
+}
+
+.artistsoclogo {
+  width: 7vw;
+  padding: .2vw;
+}
+
+.artistphoto {
+  width: 45vw;
+  height: auto;
+  float: inherit;
+  padding-left: 10vw;
+}
+
+.hypelinka {
+  text-decoration: none;
+  float: right;
+  padding-right: 10vw;
+  color: black;
+  padding-left: 10vw;
+}
+
+.bio {
+  width: 45vw;
+  float: center ;
+  text-align: justify;
+  font-size: 15px;
+  padding-left: 31vw;
+}
+
+.pcred {
+font-size: 10px;
+}
+
+.artistname {
+  padding-left: 31vw;
+}
+
+.n2 {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+
+.n1{
+  display:none;
+}
+
+.n2{
+  display:block;
+}
+
+.artistphoto {
+  width: 80%;
+  height: auto;
+  float: top;
+  padding-top: 5vw;
+}
+
+.bio {
+  width: 80%;
+  height: auto;
+  float: center ;
+  text-align: justify;
+  font-size: 15px;
+  padding-left: 0;
+  margin: 0 auto;
+  padding-bottom: 5vw;
+}
+
+.pcred {
+  font-size: 10px;
+  margin: 0 auto;
+  float: left;
+}
+
+.hypelinka {
+  text-decoration: none;
+  float: left;
+  color: black;
+  padding-left: 10vw;
+}
+    
+.artistsoclogo {
+  width: 10vw;
+  padding: .2vw;
+}
+
+.artistLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  width: 80%;
+  height: auto;
+  padding-bottom:5vw;
+}
+
+.artistname {
+  padding-left: 0vw;
+  text-align: center;
+}
+    
+}
+
+@media (max-width: 500) {
+
+.n1{
+  display:none;
+}
+
+.n2{
+  display:block;
+}
+
+.artistphoto {
+  width: 80%;
+  height: auto;
+  float: top;
+  padding-top: 5vw;
+}
+
+.bio {
+  width: 80%;
+  height: auto;
+  float: center ;
+  text-align: justify;
+  font-size: 10px;
+  padding-left: 0;
+  margin: 0 auto;
+  padding-bottom: 5vw;
+  }
+
+.pcred {
+  font-size: 10px;
+}
+.artistsoclogo {
+  width: 10vw;
+  padding: .2vw;
+}
+
+.artistLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  width: 80%;
+  height: auto;
+  padding-bottom:5vw;
+}    
+
+.pcred {
+  font-size: 10px;
+  text-align: center;
+}
+    
+.artistname {
+  padding-left: 0vw;
+  text-align: center;
+}
+    
+}

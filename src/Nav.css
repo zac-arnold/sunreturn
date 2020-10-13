@@ -1,0 +1,73 @@
+/* Font */
+@font-face {
+  font-family: Friz-Quadrata;
+  src: url("/Friz Quadrata Bold.otf") format("opentype");
+}
+
+.artistNav {
+  width: 40vh;
+  height: auto;
+  float: left;
+  text-align: center;
+  text-decoration: none!important;
+  color: black !important;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+}
+
+.border {
+  border-right: 1px solid black;
+  height: auto;
+}
+
+.navlogo {
+  width: 1vw;
+  margin: 0px 15px;
+  padding-top: 10px;
+}
+
+.blurb {
+  font-size: 10px;
+  text-align: justify;
+  font: arial;
+  padding-bottom: 1vw;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Friz-Quadrata;
+  padding-bottom: 1px;
+
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Friz-Quadrata;
+
+}
+
+.srlogo {
+  width: 10vw;
+}
+
+.srsoclogo {
+  width: 4vw;
+  padding: .2vw;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hypelink {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  padding-inline-start: 0px
+}
+

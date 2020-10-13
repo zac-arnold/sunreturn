@@ -1,0 +1,62 @@
+img {
+ width: 10.5vw;
+ height: auto;
+}
+
+p {
+  text-align: center;
+}
+
+.catnum {
+  font-family: Friz-Quadrata;
+}
+
+.covers {
+  width: 30vw;
+  height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 35px;
+  text-align: center;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.hypelink {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 500px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 35px;
+    text-align: center;
+;
+  }
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+  img {
+    width: 30vw;
+    height: auto;
+    float: left;
+    padding-right: 2vw;
+   }
+
+   p {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+}
