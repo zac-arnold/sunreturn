@@ -1,0 +1,71 @@
+@media (max-width: 800px) {
+
+  .border {
+    border-right: 0px solid black;  
+    border-bottom: 1px solid black;
+  }
+
+  .artistNav {
+    width: 100%;
+    height: auto;
+    float: top;
+    text-align: center;
+    text-decoration: none!important;
+    color: black !important;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+  }
+
+  ul {
+    width: auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  h1 {
+    font-size: 60px;
+    font-family: Friz-Quadrata;
+    padding-bottom: 1px;
+  
+  }
+
+  .title {
+    float: right;
+  }
+
+  .srlogo {
+    width: 20vw;
+    float: left;
+  }
+  
+  h1 {
+    padding-right: 2vw;
+  }
+
+  .blurb {
+    font-size: 15px;
+    text-align: justify;
+    font: arial;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 2vw;
+
+  }
+
+  .srsoclogo {
+    width: 40%;
+    padding: .2vw;  
+  }
+
+  .socialcontainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: auto;
+    padding-bottom: 3vw;
+    
+  }
+}

@@ -32,10 +32,7 @@ p {
   color: black;
 }
 
-@media (max-width: 800px) {
-  body {
-    /* background-color: lightblue; */
-  }
+@media (max-width: 500px) {
 
   .grid-container {
     display: grid;

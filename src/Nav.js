@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom'
 import lineup from './lineupdata.json'
 
 import './Nav.css';
-
+import './Nav800.css';
+import './Nav500.css';
+import './Nav350.css';
 
 
 function Nav(props) {
