@@ -84,6 +84,23 @@
         "spotify": "https://open.spotify.com/artist/3PW65WLXS6nvUaNquvoXvO?si=DRYvU2R6Q-KKQxCwOGdTRA",
         "bandcamp": "https://kmtp.bandcamp.com/album/p-s-c-u-soon"
       }
+    },
+    {
+      "id": 6,
+      "name": "POWER NAP",
+      "bio": "Tāmaki Makaurau electronic artist Power Nap aka Chris Cudby released his debut solo long-player Shaped Canvas in mid-2019, delivering student radio hits ‘Pizza Man’ and ‘Forever Man’. The former Golden Axe singer and keyboardist leads listeners on a catchy sonic journey through proto-vaporwave party jams, lo-tech psychedelic pop, looping sample slices and zoned-out soundscapes. He’s brought the party live alongside SWIDT, Disasteradio and Neil Hamburger as well as appearing at festivals like Newtown Festival, Outsider Sounds and NZ Psych Fest.",
+      "img": "./PNlandscape2.jpg",
+      "video": "",
+      "pcredt": "Chris Cubdy",
+      "pcredlink": "https://www.instagram.com/chris_cudby/",
+      "socialMedia": {
+        "twitter": "",
+        "youtube": "",
+        "instagram": "https://www.instagram.com/chris_cudby/",
+        "facebook": "https://www.facebook.com/powernapmusic",
+        "spotify": "",
+        "bandcamp": "https://powernap.bandcamp.com/"
+      }
     }
   ]
 }
