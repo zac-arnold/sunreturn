@@ -56,6 +56,14 @@ function Home() {
             <p className="">Green Grove - Of Isthmus</p>
           </div>  
 
+          <div className="grid-item">
+          <a href="https://www.youtube.com/watch?v=r8fF4wJuvh0" alt="" target="blank" rel="noopener noreferrer">
+            <img className=""src="./PNClubDinos.jpg" alt=""></img>
+          </a>
+            <p className="">SR007</p>
+            <p className="">Power Nap - Club Dinos</p>
+          </div>  
+
        </div>
 
     </div>
