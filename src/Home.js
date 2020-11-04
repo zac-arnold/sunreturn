@@ -57,7 +57,7 @@ function Home() {
           </div>  
 
           <div className="grid-item">
-          <a href="https://www.youtube.com/watch?v=r8fF4wJuvh0" alt="" target="blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/watch?v=55OXd9oePzo" alt="" target="blank" rel="noopener noreferrer">
             <img className=""src="./PNClubDinos.jpg" alt=""></img>
           </a>
             <p className="">SR007</p>
